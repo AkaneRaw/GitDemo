@@ -56,7 +56,7 @@ public class HomePage extends base{
 	@AfterTest
 	public void teardown()
 	{
-		System.out.println("Closing Browser");
+		System.out.println("Closing the Browser");
 		
 		driver.close();
 	
