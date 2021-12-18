@@ -56,7 +56,7 @@ public void initialize() throws IOException
 	@AfterTest
 	public void teardown()
 	{
-		
+		System.out.println("Close browser");
 		driver.close();
 	
 		
